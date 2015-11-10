@@ -27,3 +27,23 @@ The most important commands to know have to be help, man, and apropos. These com
 -rm = removes a file
 -help = helps you figure out what command you are looking for, i.e lists all the most common commands.
 ###header for Forking and Cloning
+Instructions for forking and cloning a git repository:
+
+Log on to Github.com
+Find the repository you want to fork
+Click on the word fork in the upper right hand corner
+Once the repository has been forked copy the https clone url
+Get into the directory that you want to be in
+Then in your terminal write “git clone ” and then paste your url
+Then you are done
+To add a new repository simply modify steps 2 and 3 to be
+
+Click the + sign in the upper right hand corner
+Choose a name and preferences for your repository
+Then continue with steps 4-7 as above
+
+ 
+
+The main reason to fork a repository is to add to the code. If you created a whole new repository you would not have access to the code being worked on in the forked repository by others. Forking a repository allows you to copy the pre-existing code in the repository and then add on to it. By doing this many people can work on the same code.
+
+When setting up github and git I struggled with getting the proper syntax for git commands like git init or git add . these commands were confusing at first but after a while i succeeded in getting a good grasp on them.
