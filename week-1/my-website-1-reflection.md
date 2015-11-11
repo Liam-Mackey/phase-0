@@ -1,5 +1,5 @@
 #Paste a link to your [USERNAME].github.io repository.
-[link](https://github.com/Liam-Mackey/Liam-Mackey.github.io/blob/master/index.html)
+[link to github.io](https://github.com/Liam-Mackey/Liam-Mackey.github.io/blob/master/index.html)
 #Explain how to create a repository on GitHub and clone the repository to your local computer to a non-technical person.
 1. Log on to github.com
 2. Click the + button in the right hand corner
@@ -23,4 +23,4 @@ The concepts surrounding using git to track files, commit them, and push them we
 
 #Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 This website taught me how to paste a link in a markdown file:
-[link](http://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file)
+[link to help](http://stackoverflow.com/questions/7653483/github-relative-link-in-markdown-file)
