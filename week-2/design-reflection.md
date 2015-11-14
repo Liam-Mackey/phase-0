@@ -1,15 +1,15 @@
 #My Site Map
-![Alt text](site-map.jpg)
+![Alt text](phase-0/week-2/imgs/site-map.jpg)
 It should be noted that I am not putting my Picture and links to my social media profiles in the site-map, because I was planning on putting my picture on the home page and having the links to my social media be on the nav bar of the home page.
 
 #What are the 6 phases of web design?
 The six phases of we design are: 
-1. Information Gathering: Taking into account Goals, Purpose, Target Audience, and Content
-2. Planning: Making a site map
-3. Design: Using wire frames to help come up with a picture of the final website
-4. Development: Using code to build the website
-5. Testing: Test your site to make sure it works properly
-6. Maintenance: Constantly keeping your site up to date and adding new features
+1. Information Gathering: Taking into account Goals, Purpose, Target Audience, and Content.
+2. Planning: Making a site map.
+3. Design: Using wire frames to help come up with a picture of the final website.
+4. Development: Using code to build the website.
+5. Testing: Test your site to make sure it works properly.
+6. Maintenance: Constantly keeping your site up to date and adding new features.
 
 #What will my site feature?
 My site will feature info about me. The main goal of my site will be to help me get a job. That is why it is kind of structured like a resume. The purpose of the site is to give my employer the information he needs to know about me as well as demonstrate my web development and design skills.
