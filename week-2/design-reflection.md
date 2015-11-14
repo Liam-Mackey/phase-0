@@ -1,5 +1,5 @@
 #My Site Map
-![Alt text](site-map.jpg)
+![Alt text](phase-0/week-2/imgs/site-map.jpg)
 It should be noted that I am not putting my Picture and links to my social media profiles in the site-map, because I was planning on putting my picture on the home page and having the links to my social media be on the nav bar of the home page.
 
 #What are the 6 phases of web design?
