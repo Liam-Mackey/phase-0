@@ -1,8 +1,8 @@
 #My index wireframe
-[Index Wireframe](https://github.com/Liam-Mackey/phase-0/blob/master/week-2/imgs/wireframe-index.jpg?raw=true)
+[Index-Wireframe](https://github.com/Liam-Mackey/phase-0/blob/master/week-2/imgs/wireframe-index.jpg?raw=true)
 
 #My blog-index wireframe
-[Blog Index Wireframe](https://github.com/Liam-Mackey/phase-0/blob/master/week-2/imgs/wireframe-blog-index.jpg?raw=true)
+[Blog-Index-Wireframe](https://github.com/Liam-Mackey/phase-0/blob/master/week-2/imgs/wireframe-blog-index.jpg?raw=true)
 
 #What is a wireframe?
 A wireframe is a mockup of what a website or webapp will look like. it is used to help web developers and designers create websites that are visually appealing and allow for a enjoyable customer experience. A wireframe is like a skeleton for a website. There are wireframes and hi-def wireframes. Hi-def wireframes are used to further plan the website. They often times will get more in-depth and add interactive features and colors. Wireframes are not meant to be pretty,  although that doesn’t mean they can't be, they are meant to be the bones that you will build your html and css around. The wireframes are the bones, the html are the muscles, and the css is the skin and clothes. Wireframing is incredibly important.
