@@ -1,6 +1,6 @@
 #My Site Map
 ![Site-map](https://github.com/Liam-Mackey/phase-0/blob/master/week-2/imgs/site-map.jpg?raw=true)
-It should be noted that I am not putting my Picture and links to my social media profiles in the site-map, because I was planning on putting my picture on the home page and having the links to my social media be on the nav bar of the home page.
+It should be noted that I am not putting my Picture and links to my social media profiles in the site-map, because I was planning on putting my picture on the home page and having the links to my social media be on the nav bar of the home page. Also I don't think it is nessecary to make a whole page for social media pages.
 
 #What are the 6 phases of web design?
 The six phases of we design are: 
