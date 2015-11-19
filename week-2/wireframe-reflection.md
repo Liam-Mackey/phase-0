@@ -1,4 +1,4 @@
-#My index wireframe
+#My Index wireframe
 [Index-Wireframe](https://github.com/Liam-Mackey/phase-0/blob/master/week-2/imgs/wireframe-index.jpg?raw=true)
 
 #My blog-index wireframe
