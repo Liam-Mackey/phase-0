@@ -12,7 +12,7 @@ The six phases of we design are:
 
 4. Development: Using code to build the website.
 
-5. Testing: Test your site to make sure it works properly.
+5. Testing: Test your site to make sure it works properly and recieve feedback from users.
 
 6. Maintenance: Constantly keeping your site up to date and adding new features.
 
