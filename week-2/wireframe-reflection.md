@@ -21,4 +21,8 @@ The questions I asked had to do with how to setup a basic wireframe. I did find 
 [a link](https://www.codementor.io/design/tutorial/getting-started-with-wireframes)
 
 #What was hardest for me?
+<<<<<<< HEAD
 The most tedious part of this challenge for me was the drawing. i really haven't sketched or drawn on paper since high  school. The planning behind the drawing was very fun however. I can’t wait to flesh out my page with some CSS.
+=======
+The most tedious part of this challenge for me was the drawing. i really haven't sketched or drawn on paper since high  school. The planning behind the drawing was very fun however. I can’t wait to flesh out my page with CSS.
+>>>>>>> 559089b595fe868b5df1621fdf46f145deecba14
