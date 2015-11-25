@@ -1,0 +1,81 @@
+body {
+    color: #000080;
+    background-color: #ffffff;
+}
+
+header {
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+h1 > span {
+    font-size: 50px;
+}
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+a {
+    color: #800080;
+}
+
+a:visited {
+    color: #ff0000;
+}
+
+ul {
+    width: 100%;
+}
+
+ul li {
+    float: left;
+    width: 48%;
+    margin: 10px;
+}
+.clear {
+    clear: both;
+}
+
+img {
+    margin: 10px;
+}
+
+aside{
+    text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+aside > p {
+    font-size: 10px;
+}
+.cs{
+    border-bottom: 1px solid black;
+}
+
+/*
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+It is very important to know the correct syntax for the link tag when linking CSS to HTML. It is also very important that you know how to use the correct file path and how to link relative paths. That helps a lot.
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+It is crucial to know how to float items when orienting and positioning them on a web page. We had some trouble positioning our list the way we wanted to with the column-gap attribute but then we positioned it effectively using the ‘float: left;’ key:value pair. It was moderately challenging and took some research, but we accomplished it.
+What CSS did you use to modify the element style (like size, color, etc.)
+I used a lot: 
+    font-size
+    color
+    font-weight
+    text-align
+just to name a few
+Did you modify the HTML to include classes or ids? If so, which did you choose and why? If you didn't, how would you know which one to add to your HTML?
+Yes we did. We added classes to our aside tag and one our p tags. That way we could effectively style them without messing up the whole web page or using nth child or other ways of getting a tags address.
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+I think we both followed good practices in different ways. We did not use a table Buffet did so that's one point for us. Buffet used a lot of internal styling we followed best practices and used external, thats another point for us. Buffet was able to use less CSS that’s a point for him. But we used less code so thats a point for us. So looking back I would say we followed best practices a little better than Buffet. His was still decent though.
+
+*/
