@@ -12,15 +12,13 @@
 
 # Your Solution Below
 def smallest_integer(list_of_nums)
-	counter = 0
 	ans = nil
-	while counter < list_of_nums.length
-		if counter == 0
-			ans = list_of_nums[counter]
-		elsif list_of_nums[counter] < ans 
-			ans = list_of_nums[counter]
+	list_of_nums.each_index do |x|
+		if x == 0 
+			ans = list_of_nums[x]
+		elsif list_of_nums[x] < ans
+			ans = list_of_nums[x]
 		end
-		counter += 1
 	end
 	return ans
 end

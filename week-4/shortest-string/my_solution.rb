@@ -12,15 +12,13 @@
 
 #Your Solution Below
 def shortest_string(list_of_words)
-  counter = 0
   ans = nil
-  while counter < list_of_words.length
-  	if counter == 0
-  		ans = list_of_words[counter]
-  	elsif list_of_words[counter].length < ans.length
-  		ans = list_of_words[counter]
-  	end
-  	counter += 1
+  list_of_words.each_index do |x|
+    if x == 0 
+      ans = list_of_words[x]
+    elsif list_of_words[x].length < ans.length
+      ans = list_of_words[x]
+    end
   end
   return ans
 end
