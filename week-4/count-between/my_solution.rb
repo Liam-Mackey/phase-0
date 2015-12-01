@@ -16,12 +16,10 @@
 
 def count_between(list_of_integers, lower_bound, upper_bound)
   count = 0
-  counter = 0
-  while counter < list_of_integers.length
-  	if list_of_integers[counter] >= lower_bound && list_of_integers[counter] <= upper_bound
+  list_of_integers.each_index do |x|
+  	if list_of_integers[x] >= lower_bound && list_of_integers[x] <= upper_bound
   		count += 1
   	end
-  	counter += 1
   end
   return count
 end

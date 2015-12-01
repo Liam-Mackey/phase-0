@@ -13,15 +13,13 @@
 
 # Your Solution Below
 def largest_integer(list_of_nums)
-  counter = 0
-  ans = nil 
-  while counter < list_of_nums.length
-  	if counter == 0
-  		ans = list_of_nums[counter]
-  	elsif list_of_nums[counter] > ans 
-  		ans = list_of_nums[counter]
-  	end
-  	counter += 1
+  ans = nil
+  list_of_nums.each_index do |x|
+    if x == 0 
+      ans = list_of_nums[x]
+    elsif list_of_nums[x] > ans
+      ans = list_of_nums[x]
+    end
   end
   return ans
 end
