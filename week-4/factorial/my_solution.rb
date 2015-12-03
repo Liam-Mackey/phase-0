@@ -15,3 +15,5 @@ def factorial(number)
   end
   return ans
 end
+
+# if you wanted to simplify it just use the factorial method
