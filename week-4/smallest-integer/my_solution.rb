@@ -11,6 +11,11 @@
 # If +list_of_nums+ is empty the method should return nil
 
 # Your Solution Below
+=begin
+	
+rescue Exception => e
+	
+end
 def smallest_integer(list_of_nums)
 	ans = nil
 	list_of_nums.each_index do |x|
@@ -22,3 +27,11 @@ def smallest_integer(list_of_nums)
 	end
 	return ans
 end
+=end
+
+	
+def smallest_integer(list_of_nums)
+	ans = list_of_nums.min 
+end
+
+	

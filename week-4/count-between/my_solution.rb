@@ -13,7 +13,7 @@
 # If +array+ is empty the method should return 0
 
 # Your Solution Below
-
+=begin 
 def count_between(list_of_integers, lower_bound, upper_bound)
   count = 0
   list_of_integers.each_index do |x|
@@ -23,3 +23,11 @@ def count_between(list_of_integers, lower_bound, upper_bound)
   end
   return count
 end
+
+=end
+
+
+def count_between(list_of_integers, lower_bound, upper_bound)
+	return list_of_integers.count {|x| (lower_bound..upper_bound).include?(x) }
+end
+
