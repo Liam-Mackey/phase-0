@@ -24,4 +24,9 @@ def longest_string(list_of_words)
   return ans
 end
 
-# the easier way to do this would be to use sort_by{|s| s.length}.reverse then pick the first string
+# the easier way to do this would be to use max_by{|s| s.length}
+=begin
+def longest_string(list_of_words)
+	return list_of_words.max_by {|x| x.length }
+end
+=end

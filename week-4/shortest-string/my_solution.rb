@@ -11,6 +11,11 @@
 # If +list_of_words+ is empty the method should return nil
 
 #Your Solution Below
+=begin
+	
+rescue Exception => e
+	
+end
 def shortest_string(list_of_words)
   ans = nil
   list_of_words.each_index do |x|
@@ -23,4 +28,9 @@ def shortest_string(list_of_words)
   return ans
 end
 
-# The simpler way would by to use the sort_by method and sort by the length of each object in the array
+=end
+# The simpler way would by to use the min_by method and sort by the length of each object in the array
+
+def shortest_string(list_of_words)
+	return list_of_words.min_by {|x| x.length }
+end	

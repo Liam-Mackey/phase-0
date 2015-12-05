@@ -19,3 +19,12 @@ def array_concat(array_1, array_2)
 end
 
 # the easy solution is to just use the concat method for arrays
+
+=begin
+	
+def array_concat(array_1, array_2)
+	ans = array_1.concat(array_2)
+	retrun ans
+end
+	
+=end

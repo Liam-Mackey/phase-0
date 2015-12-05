@@ -25,3 +25,9 @@ def largest_integer(list_of_nums)
 end
 
 # the easier way to do it would be to use the max method for arrays.
+=begin
+def largest_integer(list_of_nums)
+	ans = list_of_nums.max
+	return ans
+end
+=end
