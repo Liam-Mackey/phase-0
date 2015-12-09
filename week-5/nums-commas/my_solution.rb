@@ -20,7 +20,7 @@
 # END WHILE 
 # return the answer
 # 1. Initial Solution
-
+=begin
 def separate_comma(num)
   str_num = num.to_s
   counter = -4
@@ -30,20 +30,19 @@ def separate_comma(num)
   end
   return str_num
 end
-
+=end
 
 # 2. Refactored Solution
-=begin
+
 def separate_comma(num)
   arr = num.to_s.split("")
-  counter = -4 
-  while arr[counter] != nil
-    arr = arr.insert(counter, ",")
-    counter -= 4
-  end
+  arr = arr.each_index {|x|
+    x = -x - 1
+    arr = arr.insert(x, ",") if x % 4 == 0
+    }
   return arr.join
 end
-=end
+
 
 # 3. Reflection
 =begin
@@ -57,7 +56,6 @@ What new Ruby method(s) did you use when refactoring your solution? Describe you
 How did you initially iterate through the data structure?
    I used a while loop. Which i still prefer over the each method I found it to be easier to use.
 Do you feel your refactored solution is more readable than your initial solution? Why?
-   No i actually like the initial solution I came up with better. I think it makes more sense, but i just didn’t know how to improve it. After researching for a long time I figured I would try a whole new approach which did teach me more about methods but I like my first born code better.
-
+  Yes. I feel that both soultions were readable but my refactored solution is easier to follow and makes a bit more sense.
    
 =end
