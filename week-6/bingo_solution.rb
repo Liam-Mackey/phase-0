@@ -86,23 +86,22 @@ class BingoBoard
   
   def call
     bingo = ["B", "I", "N", "G", "O"]
-    @letter = bingo.sample
-    @index = bingo.index(@letter)
+    letter = bingo.sample
+    @index = bingo.index(letter)
     @num = rand(100) + 1
-    return @letter, @num
+    return letter, @num
   end
 
   def check 
-    @ans = @bingo_board.each do |array|
+    @bingo_board.each do |array|
       if array[@index] == @num
         array[@index] = "X"
       end 
     end
-    return @ans
   end
   
   def display
-    @ans.each do |array|
+    @bingo_board.each do |array|
       puts "#{array}"
     end
   end
@@ -132,7 +131,7 @@ new_game.display
   
 
 How difficult was pseudocoding this challenge? What do you think of your pseudocoding style?
-It was pretty hard i had a rough time figureing out how to turn letters into index's. I think my psuedocoding style is getting better and better everyday. i really want to improve where i am lacking though, i.e. too much code oriented thining and not enough english.
+It was pretty hard i had a rough time figureing out how to turn letters into index's. I think my psuedocoding style is getting better and better everyday. i really want to improve where i am lacking though, i.e. too much code oriented thining and not enough english. I ended up with initial code that was pretty different then the psuedocode, I ran into some issues using case statements and went with a hash instead. Then when refactoring i found out how to just get the index.
 What are the benefits of using a class for this challenge?
 It gives you a way of organizing your methods and variables and makes it easier to pass information through to them. It makes it easier to understand and makes your code more DRY.
 How can you access coordinates in a nested array?
