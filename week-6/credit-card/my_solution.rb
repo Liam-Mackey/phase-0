@@ -120,6 +120,9 @@ class CreditCard
   end
   
   def check_card
+    self.double
+    self.separate
+    self.sum
     if @sum % 10 == 0
       true
     else
