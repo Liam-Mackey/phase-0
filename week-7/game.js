@@ -186,7 +186,8 @@ var user = {
 		
 	},
 	pickUp: function(item){
-		this.total_health += item;
+		newHealth = this.total_health += item.benefit;
+		return "Your new total health is " + newHealth;
 	},
 	flee: function(){
 		return this.name + " has fled and left christmas village to burn! How shameful"
@@ -251,7 +252,18 @@ ans = user.attack();
 
 if (ans === survive){
 	console.log(ans);
-	console.log(user.call_santa());
+	console.log(" ");
+	console.log(user.pickUp(candyCane));
+	console.log(" ");
+	ans2 = user.call_santa();
+	if (ans2 === "Philip is still not vanquished, hurry up and make a move before he does!" ){
+		console.log(ans2);
+		console.log(" ");
+		console.log(user.attack());
+	}
+	else{
+		console.log(ans2);
+	};
 }
 else{
 	console.log(ans);
