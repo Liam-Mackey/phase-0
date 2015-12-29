@@ -74,3 +74,15 @@ assert(
 
 
 // Reflection
+
+/*
+
+What was it like to approach the problem from the perspective of JavaScript? Did you approach the problem differently?
+It was much harder to approach the problem from a javascript perspective. I took a different route because i knew i couldnt use string methods to solve the problem. It was much harder.
+What did you learn about iterating over arrays in JavaScript?
+I learned that for loops are your friend and that they can be simmilar to the each iterator in ruby. For loops are also a bit easier than while Lopps.
+What was different about solving this problem in JavaScript?
+We had a lot less built in methods available to us. We had to think a bit more thouroughly and logically. BUt despite that we still succeded with the challenge.
+What built-in methods did you find to incorporate in your refactored solution?
+We used splice and join which operate differently then they way they do in ruby. I definetly had a tough time figureiing out how to use the join method it took me a while to figure out that it adds commas automatically.
+*/
